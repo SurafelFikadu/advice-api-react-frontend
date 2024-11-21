@@ -31,7 +31,7 @@ const App = () => {
               });
           }}
         >
-          <div className="bg-Neon-Green w-14 h-14 place-items-center grid rounded-full absolute bottom-0 left-44 md:left-60">
+          <div className="bg-Neon-Green w-14 h-14 place-items-center grid rounded-full absolute bottom-0">
             <img src={icon_dice} alt="icon dice" />
           </div>
         </button>
