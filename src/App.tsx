@@ -12,9 +12,11 @@ const App = () => {
 
   return (
     <div className="grid place-items-center text-center h-100vh bg-Dark-Blue">
-      <div className="bg-Dark-Grayish-Blue w-400px md:w-500px p-7 rounded-xl relative">
+      <div className="bg-Dark-Grayish-Blue w-400px md:w-550px p-7 rounded-xl relative">
         <h1 className="text-Neon-Green py-5">ADVICE #{advicesId}</h1>
-        <p className="text-Light-Cyan text-28px px-5 mb-7">"{advices}"</p>
+        <p className="text-Light-Cyan font-bold text-28px px-5 mb-7">
+          "{advices}"
+        </p>
         <div className="grid place-items-center mb-7">
           <img className="hidden md:block" src={desk_pattern} alt="" />
           <img className="md:hidden" src={mob_pattern} alt="" />
@@ -29,7 +31,7 @@ const App = () => {
               });
           }}
         >
-          <div className="bg-Neon-Green w-14 h-14 place-items-center grid rounded-full absolute bottom-0 left-44 md:left-56">
+          <div className="bg-Neon-Green w-14 h-14 place-items-center grid rounded-full absolute bottom-0 left-44 md:left-60">
             <img src={icon_dice} alt="icon dice" />
           </div>
         </button>

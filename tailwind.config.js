@@ -20,6 +20,8 @@ export default {
         "100vw": "100vw",
         "400px": "400px",
         "500px": "500px",
+        "520px": "520px",
+        "550px": "550px",
       },
       fontSize: {
         "2xs": ".625rem",
